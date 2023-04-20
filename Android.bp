@@ -241,13 +241,3 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "lenovo",
-	srcs: ["proprietary/bin/chargeonlymode"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-}
